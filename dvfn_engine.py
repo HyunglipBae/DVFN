@@ -1,17 +1,3 @@
-"""
-DVFN algorithm solver
-Author: Hyunglip Bae (qogudflq@kaist.ac.kr)
-
-Check
-1. nodes (default : 64)
-2. layer (default : 1)
-3. epoch (default : 30)
-4. learning rate (default : 0.0015)
-5. epsilon (default: 0.01)
-6. initial feasible solution
-7. digit of PDA
-"""
-
 import numpy as np
 import sympy as sp
 import math
