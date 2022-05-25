@@ -48,7 +48,7 @@ tensorflow == 2.5.0
 
 ![image](https://user-images.githubusercontent.com/105804347/170279720-659e8ddb-4170-49fa-840f-a5da75c97b4a.png)
 
-![image](https://user-images.githubusercontent.com/105804347/170279820-d8f24476-c414-4e42-8ace-ecde7754877c.png)
+![image](https://user-images.githubusercontent.com/105804347/170281566-85738445-5a89-4d66-b33b-af139ee674f3.png)
 
 2.2 Perturbation analysis on maximum resource
 
