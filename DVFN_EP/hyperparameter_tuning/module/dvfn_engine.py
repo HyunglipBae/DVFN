@@ -1016,6 +1016,11 @@ class DVFN():
         time.sleep(0.1)
 
     def ep_simulate_solution(self, sol):
+        """
+        Calculate objective value given solution from DVFN
+        :param sol: The corresponding solution
+        :return: obj: The objective value
+        """
         print("Calculate Objective Value")
         c_w = 2
         c_h = 7
