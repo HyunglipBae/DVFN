@@ -1020,6 +1020,11 @@ class DVFN():
         time.sleep(0.1)
 
     def po_simulate_solution(self, sol):
+        """
+        Calculate objective value given solution from DVFN
+        :param sol: The corresponding solution
+        :return: obj: The objective value
+        """
         print("Calculate Objective Value")
         c1 = np.array([[1, 2, 5, 6, 12, 20, 3, 7, 10]])
         c2 = np.array([[0, 0, 0, 6, 12, 20, 0, 0, 0]])
