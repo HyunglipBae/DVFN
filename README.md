@@ -6,8 +6,10 @@ This repository is the official implementation of Deep Value Function Networks.
 
 ## Version of Packages
 
-numpy == 1.19.5 \\
-sympy == 1.8 \\
+numpy == 1.19.5
+
+sympy == 1.8
+
 tensorflow == 2.5.0
 
 ## Results
