@@ -57,3 +57,11 @@ tensorflow == 2.5.0
 ## Hyperparameter Tuning (* indicates the selected hyperparameter setting)
 
 ![image](https://user-images.githubusercontent.com/105804347/170280117-63bd0a30-f37d-4807-be4f-1ce34ebe5a8c.png)
+
+## Effect of Activation Functions on Input Convex Neural Networks
+
+We adopted Input Convex Neural Networks (ICNNs) to approximate the value function since it is generally convex on mild condition (See Appendix A). To preserve convex structure, ICNNs require convex activation function. The examples of convex activation functions are relu, leaky-relu, elu, selu and softplus. In this paper, we used elu activation function which is continuous, differentiable on everywhere and partially linear. Together with the previous results, we investigate the effect of activation function on ICNNs. As Appendix D, we solved the production and energy planning problems with DVFN for 20 times with different activation functions, and the box plots of logarithms of gradient losses are represented. As expected, the elu function shows good performance, and it was newly verified the the softplus function is also a good choice.
+
+![boxplot_ICNN](https://user-images.githubusercontent.com/105804347/179458542-2f0a4661-f213-4201-88ff-f4eca2ffe826.png)
+
+![boxplot_ICNN](https://user-images.githubusercontent.com/105804347/179458639-683c3642-df31-41a6-9a09-700f189aa83a.png)
