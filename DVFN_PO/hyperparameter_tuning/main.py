@@ -3,14 +3,14 @@ import numpy as np
 from problems.production_optimization import make_problem_definition
 import tensorflow as tf
 
-def solve_PO(n_stages=7,
+def solve_PO(n_stages=11,
              n_nodes=64,
              n_hlayers=1,
-             n_epochs=30,
+             n_epochs=5,
              ICNN_optimizer="Adam",
              lr=0.0015,
-             min_iter=50,
-             max_iter=50):
+             min_iter=75,
+             max_iter=75):
 
     problem_definition = make_problem_definition(n_stages=n_stages)
     solver = DVFN(problem_definition,
@@ -29,7 +29,7 @@ def solve_PO(n_stages=7,
 
 # Hyperparameter tuning
 n_simulations = 20
-n_stages = 7
+n_stages = 11
 # n_nodes = 64
 # n_hlayers = 1
 # n_epochs = 30
