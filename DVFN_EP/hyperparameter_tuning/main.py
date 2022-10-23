@@ -2,14 +2,14 @@ from module.dvfn_engine import DVFN
 import numpy as np
 from problems.energy_planning import make_problem_definition
 
-def solve_EP(n_stages=7,
-             n_nodes=128,
+def solve_EP(n_stages=15,
+             n_nodes=64,
              n_hlayers=1,
-             n_epochs=20,
+             n_epochs=5,
              ICNN_optimizer="Adam",
              lr=0.001,
-             min_iter=200,
-             max_iter=200):
+             min_iter=150,
+             max_iter=150):
 
     problem_definition = make_problem_definition(n_stages=n_stages)
     solver = DVFN(problem_definition,
@@ -27,16 +27,16 @@ def solve_EP(n_stages=7,
     return sol, obj, loss
 
 # Hyperparameter tuning
-n_simulations = 20
-n_stages = 7
+n_simulations = 10
+n_stages = 15
 # n_nodes = 128
 # n_hlayers = 1
 # n_epochs = 20
 # ICNN_optimizer = "Adam"
 # lr = 0.001
 
-hyper_dic = {'epoch': [5, 10, 15, 20, 25, 30],
-             'node': [16, 32, 64, 128, 256],
+hyper_dic = {'epoch': [5, 10, 15, 20],
+             'node': [32, 64, 128, 256],
              'hlayer': [1, 2, 3],
              'optimizer': ['Adam', 'Adagrad', 'SGD', 'RMSprop'],
              'lr': [0.0005, 0.001, 0.0015, 0.002]}
