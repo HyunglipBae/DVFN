@@ -46,7 +46,7 @@ class DVFN():
         self.insert_problem()
 
         # 2) Forward Pass Related
-        self.batch = 3
+        self.batch = 2
         self.iteration_count = 0
         self.iter_time = []
         self.min_iter = min_iter
