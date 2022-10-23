@@ -28,7 +28,7 @@ def solve_PO(n_stages=11,
     return sol, obj, loss
 
 # Hyperparameter tuning
-n_simulations = 20
+n_simulations = 10
 n_stages = 11
 # n_nodes = 64
 # n_hlayers = 1
@@ -36,8 +36,8 @@ n_stages = 11
 # ICNN_optimizer = "Adam"
 # lr = 0.0015
 
-hyper_dic = {'epoch': [5, 10, 15, 20, 25, 30],
-             'node': [16, 32, 64, 128, 256],
+hyper_dic = {'epoch': [5, 10, 15, 20],
+             'node': [32, 64, 128, 256],
              'hlayer': [1, 2, 3],
              'optimizer': ['Adam', 'Adagrad', 'SGD', 'RMSprop'],
              'lr': [0.0005, 0.001, 0.0015, 0.002]}
