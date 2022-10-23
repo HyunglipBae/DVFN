@@ -2,14 +2,14 @@ from module.dvfn_engine import DVFN
 import numpy as np
 from problems.energy_planning import make_problem_definition
 
-def solve_EP(n_stages=7,
-             n_nodes=128,
+def solve_EP(n_stages=15,
+             n_nodes=64,
              n_hlayers=1,
-             n_epochs=20,
+             n_epochs=5,
              ICNN_optimizer="Adam",
              lr=0.001,
-             min_iter=200,
-             max_iter=200,
+             min_iter=150,
+             max_iter=150,
              h_cost=2,
              t_cost=7):
 
@@ -30,14 +30,14 @@ def solve_EP(n_stages=7,
     return sol, obj
 
 # User defined setting
-n_stages = 7
-n_nodes = 128
+n_stages = 15
+n_nodes = 64
 n_hlayers = 1
-n_epochs = 20
+n_epochs = 5
 ICNN_optimizer = "Adam"
 lr = 0.001
-min_iter = 1
-max_iter = 1
+min_iter = 150
+max_iter = 150
 
 perturbation_list = [[2, 5], [2, 5.5], [2, 6], [2, 6.5], [2, 7], [2, 7.5], [2, 8], [3, 7], [3.5, 7], [4, 7], [4.5, 7], [5, 7]]
 for perturbation in perturbation_list:
