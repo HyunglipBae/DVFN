@@ -32,8 +32,8 @@ n_hlayers = 1
 n_epochs = 5
 ICNN_optimizer = "Adam"
 lr = 0.0015
-min_iter = 5
-max_iter = 5
+min_iter = 75
+max_iter = 75
 
 sol, obj = solve_PO(n_stages, n_nodes, n_hlayers, n_epochs, ICNN_optimizer, lr, min_iter, max_iter)
 print("Production: ", np.reshape(sol, sol.shape[0])[0:3])
