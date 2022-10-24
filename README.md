@@ -18,6 +18,8 @@ numpy == 1.19.5
 
 sympy == 1.8
 
+cvxpy == 1.1.15
+
 tensorflow == 2.5.0
 
 # Numerical Examples
