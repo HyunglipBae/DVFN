@@ -18,5 +18,15 @@ sympy == 1.8
 
 tensorflow == 2.5.0
 
-# Numerical Example : Production Optimization
+# Numerical Examples
+
+## Production Optimization
+![image](https://user-images.githubusercontent.com/105804347/197470773-8cc5dfb0-cdc8-4c25-a246-712606393a3c.png)
+![image](https://user-images.githubusercontent.com/105804347/197470812-f1ba5752-2d76-492b-afbd-1ff103106a76.png)
+![image](https://user-images.githubusercontent.com/105804347/197470837-a0dfebb1-0066-4335-8ad8-cb8147d7ccce.png)
+
+## Energy Planning
+![image](https://user-images.githubusercontent.com/105804347/197471022-debb975e-947b-42b9-bcc2-73fe869d7aa1.png)
+![image](https://user-images.githubusercontent.com/105804347/197471069-db5f9ae8-07a8-499c-9df8-50102a7fa9bb.png)
+
 
