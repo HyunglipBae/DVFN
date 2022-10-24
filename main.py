@@ -84,8 +84,8 @@ n_stages = 11
 n_batches = 3
 
 hyper_dic = {}
-hyper_dic['min_iter'] = 5
-hyper_dic['max_iter'] = 5
+hyper_dic['min_iter'] = 75
+hyper_dic['max_iter'] = 75
 hyper_dic['n_epochs'] = 5 # for only DVFN
 hyper_dic['n_nodes'] = 64 # for only DVFN
 hyper_dic['n_hlayers'] = 1 # for only DVFN
