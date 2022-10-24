@@ -17,3 +17,6 @@ numpy == 1.19.5
 sympy == 1.8
 
 tensorflow == 2.5.0
+
+# Numerical Example : Production Optimization
+
