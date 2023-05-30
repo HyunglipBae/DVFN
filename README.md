@@ -8,7 +8,7 @@ DVFN is neural-networks based stagewise decomposition algorithm for large-scale 
 
 You can check details and experiment results of DVFN in
 
-[DVFN.pdf](https://github.com/HyunglipBae/DVFN/files/11598609/DVFN.pdf)
+https://proceedings.mlr.press/v206/bae23a/bae23a.pdf
 
 ## Version of Packages
 
